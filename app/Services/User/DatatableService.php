@@ -87,7 +87,7 @@ class DatatableService
             $isActive = $this->isItemProject($item, 'is_active');
             $action = '<a href="javascript:void(0)" onclick="editUser('.$id.')" class="btn btn-sm btn-primary">Edit</a>';
             if($isActive == "Active"){
-                $action .= '&nbsp<a href="javascript:void(0)" onclick="deleteUser('.$id.')" class="btn btn-sm btn-danger">Disabled</a>';
+                $action .= '&nbsp<a href="javascript:void(0)" onclick="deleteUser('.$id.')" class="btn btn-sm btn-danger">Disable</a>';
             } else {
                 $action .= '&nbsp<a href="javascript:void(0)" onclick="enableUser('.$id.')" class="btn btn-sm btn-warning">Activate</a>';
             }
