@@ -1,4 +1,4 @@
-- link Video Gdrive :
+- <a href="https://drive.google.com/drive/folders/1pZklkAGQtSt_vOR_M9CeRKGVE_R3wEAv?usp=sharing">link Video Gdrive</a>
 - rename .env.example to .env
 - config database - mysql
 - composer install
