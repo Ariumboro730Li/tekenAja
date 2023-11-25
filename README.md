@@ -2,6 +2,7 @@
 - rename .env.example to .env
 - config database - mysql
 - composer install
-- php artisan migrate --seed 
+- php artisan key:generate
 - php artisan optimize
+- php artisan migrate --seed 
 - php artisan serve
