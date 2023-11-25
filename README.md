@@ -1,0 +1,7 @@
+- link Video Gdrive :
+- rename .env.example to .env
+- config database - mysql
+- composer install
+- php artisan migrate --seed 
+- php artisan optimize
+- php artisan serve
