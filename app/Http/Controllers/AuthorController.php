@@ -62,7 +62,6 @@ class AuthorController extends Controller
                 ]);
             }
         });
-
         if($author){
             return response()->json([
                 'status' => 'success',

@@ -6,7 +6,6 @@ use App\Http\Requests\BookRequest;
 use App\Http\Requests\BookUpdateRequest;
 use App\Models\Book;
 use App\Services\Book\DatatableService;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
 class BookController extends Controller
